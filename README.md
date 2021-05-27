@@ -17,4 +17,4 @@ step：
     2。进入 ${projectPath}/target/generated-sources/archetype中
     3。安装 mvn clean install
     4。构建mvn的archetype-catalog文件，执行mvn clean install
-    5。进入需要安装的目录执行安装  例如mvn archetype:generate -DarchetypeGroupId=io.github.haifeng303 -DarchetypeArtifactId=feng-cloud-admin-archetype -DarchetypeVersion=1.0.0-SNAPSHOT -DinteractiveMode=false -DarchetypeCatalog=local -Dversion=1.0.0-SNAPSHOT -DgroupId=io.github.haifeng303 -DartifactId=feng-cloud-mall
+    5。进入需要安装的目录执行安装  例如mvn archetype:generate -DarchetypeGroupId=io.github.haifeng303 -DarchetypeArtifactId=feng-cloud-admin-archetype -DarchetypeVersion=1.0.0 -DinteractiveMode=false -DarchetypeCatalog=local -Dversion=1.0.0 -DgroupId=io.github.haifeng303 -DartifactId=feng-cloud-mall
